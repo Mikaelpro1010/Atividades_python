@@ -25,11 +25,10 @@ def main():
         if(number == sequence_fibonacci[j] ):
             sequence_element = sequence_fibonacci[j]
 
-    #criando as condicoes necessarias para informar se o numero pertence ou nao a sequencia de fibonacci
     if(number == sequence_element):
-        print("Este numero pertence a sequencia de fibonacci!")
+        print("O numero {} pertence a sequencia de fibonacci!".format(number))
     else:
-        print("Este numero nao pertence a sequencia de fibonacci!")
+        print("O numero {} nao pertence a sequencia de fibonacci!".format(number))
         
 #chamando a funcao main para exbir os resultados
 main()
